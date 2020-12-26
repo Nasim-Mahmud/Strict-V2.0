@@ -1,0 +1,165 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*heading section starts*/
+header{
+	background: #f6f9f9;
+}
+.head-top{
+	width: 100%;
+	padding: 20px 0px;
+}
+.head-top .bg-light {
+	background: transparent !important;
+	padding: 0px;
+}
+.head-top .navbar-brand img{
+
+}
+.head-top .navbar-light .navbar-nav .nav-link {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 24px;
+	color: #2d3950;
+	padding: 0px 0px 0px 35px;
+	transition: 0.7s;
+}
+.head-top .navbar-light .navbar-nav .nav-link:hover, .head-top .navbar-light .navbar-nav .nav-link:focus{
+	color: #229DD3;
+}
+.head-sec{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+.head-sec .title{
+
+}
+.head-sec .title h1 {
+	text-align: center;
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 80px;
+	letter-spacing: 3px;
+	color: #fff;
+	padding: 110px 0px 15px;
+	margin: 0px;
+}
+
+.head-sec .title p {
+	margin: 0px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+	padding: 15px 0px;
+	color: #fff;
+}
+.head-sec .title .line {
+	width: 520px;
+	height: 2px;
+	border: none;
+	background: #15a4fa;
+	text-align: center;
+	position: relative;
+	left: 26%;
+}
+.head-sec .title .button {
+    padding: 50px 475px;
+}
+.head-sec .title a{
+
+}
+.head-sec .title .btn-primary {
+   /* position: relative;
+    left: 43%;
+    top: 107px;*/
+    font-size: 16px;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    color: #fff;
+    padding: 10px 20px;
+    transition: 0.7s;
+}
+.head-sec .title .btn-primary:hover, .head-sec .title .btn-primary:focus{
+	background: #15a4fa;
+
+}
+.head-sec .title img {
+    padding: 4% 540px;
+    position: relative;
+    top: 53px;
+}
+/*heading section ends*/
+
+/*design section starts*/
+.design{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f6f9f9;
+}
+.design .head{
+	text-align: center;
+}
+.design .head h3 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #2d3950;
+    margin: 0px;
+    padding: 0px 0px 20px;
+}
+.design .head p {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+    /* padding: 0px 0px 60px; */
+    
+}
+/*design section ends*/
+
+/*features section starts*/
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.feature .options{
+
+}
+.feature .options img {
+    height: 85px;
+    margin: 0px;
+}
+.feature .options h4 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0px 10px;
+    margin: 0px;
+    color: #2d3950;
+}
+.feature .options p {
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #999999;
+}
+/*features section ends*/

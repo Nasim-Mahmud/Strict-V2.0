@@ -1,0 +1,8 @@
+md - medium device (1200+)
+sm - small device (700px to 900px)
+lg - large device (1400px+)
+xs - extra small device (320px to 481px)
+
+col-md-12 -> column medium device 12 row on a single header row
+col-sm-12 -> column small device 12 row on a single header row
+col-lg-06 -> column large device 06 row on a single header row
