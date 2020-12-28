@@ -5,20 +5,226 @@
 
   @media (min-width: 320px) and (max-width: 480px) {
     /*******************************/
-    
+    .head-top {
+      width: 100%;
+      padding: 10px 14px 10px 0px;
+    }
+    .head-top .navbar-brand img {
+      height: 25px;
+    }
+    .head-sec .title h1 {
+      text-align: center;
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 45px;
+      letter-spacing: 2px;
+      color: #fff;
+      padding: 20px 0px 10px;
+      margin: 0px;
+    }
+    .head-sec .title .line {
+      width: 153px;
+      height: 2px;
+      border: none;
+      background: #15a4fa;
+      text-align: center;
+      position: relative;
+      left: 26%;
+    }
+    .head-sec .title .button {
+      padding: 40px 95px;
+    }
 
+    .design {
+      width: 100%;
+      padding: 40px 0px;
+      background: #f6f9f9;
+    }
+    .design .head h3 {
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 35px;
+      color: #2d3950;
+      margin: 0px;
+      padding: 0px 0px 15px;
+    }
+    .design .head p {
+      margin: 0px;
+      font-size: 13px;
+      font-weight: 400;
+      color: #999999;
+      /* padding: 0px 0px 60px; */
+    }
+    .feature {
+      width: 100%;
+      padding: 40px 0px;
+      text-align: center;
+    }
+    .feature .options img {
+      height: 50px;
+      margin: 0px;
+    }
+    .feature .options h4 {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      padding: 10px 0px 5px;
+      margin: 0px;
+      color: #2d3950;
+    }
+    .feature .options p {
+      margin: 0px;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 22px;
+      color: #999999;
+      padding-bottom: 15px;
+    }
+    .show {
+      width: 100%;
+      padding: 40px 0px;
+      background: #f6f9f9;
+    }
+    .show .show-top h3 {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 34px;
+      color: #2d3950;
+      margin: 0px;
+      padding: 0px 0px 10px;
+    }
+    .show .first .one {
+      position: relative;
+      /* opacity: 0; */
+      height: 150px;
+      left: 21%;
+    }
+    .show .first .two {
+      position: relative;
+      /* opacity: 0; */
+      height: 150px;
+      left: 21%;
+    }
+    .show .first .three {
+      position: relative;
+      /* opacity: 0; */
+      height: 150px;
+      left: 21%;
+    }
+    .show .second .four {
+      position: relative;
+      /* opacity: 0; */
+      height: 150px;
+      left: 21%;
+    }
+    .show .second .five {
+      position: relative;
+      /* opacity: 0; */
+      height: 150px;
+      left: 21%;
+    }
+    .show .second .six {
+      position: relative;
+      /* opacity: 0; */
+      height: 150px;
+      left: 21%;
+    }
+    .stay {
+      width: 100%;
+      padding: 40px 0px;
+      background: url(../images/b.png) center top no-repeat;
+      background-size: cover;
+    }
+    .stay .stay-top h3 {
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 35px;
+      color: #fff;
+      margin: 0px;
+      padding: 0px 0px 10px;
+      text-align: center;
+    }
+    .stay .stay-top p {
+      margin: 0px;
+      font-size: 12px;
+      font-weight: 400;
+      color: #999999;
+      padding: 0px 0px 25px;
+      text-align: center;
+    }
+    .stay .main-form .form-group {
+      margin: 0px;
+      padding: 5px 0px;
+      color: #999999;
+    }
+    .stay .main-form .form-group .form-control {
+      font-weight: 400;
+      background: transparent;
+      padding: 0px 10px;
+      font-size: 12px;
+      height: 30px;
+      border: 1px solid #999999;
+    }
+    .stay .main-form .msg .form-group .form-control {
+      font-weight: 400;
+      background: transparent;
+      padding: 6px 10px;
+      font-size: 12px;
+      height: 90px;
+    }
+    .stay .main-form .form-group .form-check {
+      padding: 5px 0px 0px 20px;
+    }
+
+    .stay .main-form .form-group .form-check-label {
+      color: #f5f5f6;
+      padding: 0px 5px;
+      font-size: 12px;
+    }
+    .stay .main-form .btn-primary {
+      background: transparent;
+      padding: 3px 25px;
+      position: relative;
+      left: 73%;
+      top: -30px;
+      border-color: #15a4fa;
+      transition: 0.7s;
+      font-size: 14px;
+    }
+    .foot h5 {
+    margin: 0px !important;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px;
+    color: #999999;
+    position: relative;
+    top: 10px;
+}
+    .foot .links ul {
+    margin: 0px;
+    padding: 0px 0px;
+    position: relative;
+    top: -8px;
+}
+.foot .links ul li .btn-primary {
+    border-radius: 0px;
+    background: #15a4fa;
+    border: 1px solid #15a4fa;
+    transition: 0.7s;
+    padding: 0px 5px;
+}
     /******************************/
   }
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
+  ##Screen = B/w 481px to 767px   
   */
 
   @media (min-width: 481px) and (max-width: 767px) {
 
     /**********************************/
-   
+
     /***********************************/
 
   }

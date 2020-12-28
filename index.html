@@ -11,15 +11,19 @@
 	<title>Strict | Home</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- adding animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 
 </head>
-<header>
+<header class="navbar-wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="head-top">
-					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light ">
 						<a class="navbar-brand" href="#">
 							<img src="images/logo.png" alt="">
 						</a>
@@ -30,16 +34,16 @@
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav ml-auto">
 								<li class="nav-item">
-									<a class="nav-link" href="#">Home</a>
+									<a class="nav-link" href="#home">Home</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">About</a>
+									<a class="nav-link" href="#about">About</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Gallery</a>
+									<a class="nav-link" href="#gallery">Gallery</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Contact</a>
+									<a class="nav-link" href="#contact">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -50,24 +54,24 @@
 	</div>
 </header>
 <body>
-	<section class="head-sec">
+	<section class="head-sec" id="home">
 		<div class="container">
 			<div class="row	">
 				<div class="col-md-12">
 					<div class="title">
-						<h1>
+						<h1 class="wow slideInRight" data-wow-duration="1s" data-wow-delay=".2s">
 							STRICT
 						</h1>
-						<div class="line">
+						<div class="line wow slideInLeft" data-wow-duration="1s" data-wow-delay=".3s">
 							<!-- horizontal line -->
 						</div>
-						<p>
+						<p class="wow slideInRight" data-wow-duration="1s" data-wow-delay=".4s">
 							STRICT is a responsive theme with a a clean and minimal look.
 						</p>
 						<div class="button">
 							<a href="#" class="btn btn-primary">Call to action</a>
 						</div>
-						<a href="#"><img src="images/i.png" alt=""></a>
+						<a href="#bottom"><img src="images/i.png" alt="" ></a>
 					</div>
 				</div>
 			</div>
@@ -75,11 +79,11 @@
 	</section>
 
 	<!-- design section starts -->
-	<section class="design">
+	<section class="design" id="about">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="head">
+					<div class="head wow bounceInDown" data-wow-duration="1s" data-wow-delay=".6s">
 						<h3>
 							Simple & pure design.
 						</h3>
@@ -94,11 +98,11 @@
 	<!-- design section ends -->
 
 	<!-- feature section starts -->
-	<section class="feature">
+	<section class="feature" >
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					<div class="options">
+					<div class="options wow slideInLeft" data-wow-duration="1s" data-wow-delay=".4s">
 						<img src="images/1.png" alt="">
 						<h4>
 							Optimized for all devices
@@ -109,7 +113,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="options">
+					<div class="options wow slideInLeft" data-wow-duration="1s" data-wow-delay=".7s">
 						<img src="images/2.png" alt="">
 						<h4>
 							Clean & Minimal Design
@@ -120,7 +124,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="options">
+					<div class="options wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
 						<img src="images/3.png" alt="">
 						<h4>
 							Font Awesome Icon
@@ -136,11 +140,11 @@
 	<!-- feature section ends -->
 
 	<!-- Showcase section starts -->
-	<section class="show">
+	<section class="show" id="gallery">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="show-top">
+					<div class="show-top wow bounceInDown" data-wow-duration="1s" data-wow-delay=".4s">
 						<h3>
 							Showcase your work like a pro.
 						</h3>
@@ -154,9 +158,9 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="first">
-						<img src="images/p1.png" alt="" class="one">
-						<img src="images/p2.png" alt="" class="two">
-						<img src="images/p3.png" alt="" class="three">
+						<img src="images/p1.png" alt="" class="one wow slideInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+						<img src="images/p2.png" alt="" class="two wow slideInLeft" data-wow-duration="1s" data-wow-delay=".6s">
+						<img src="images/p3.png" alt="" class="three wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
 					</div>
 				</div>
 			</div>
@@ -164,9 +168,9 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="second">
-						<img src="images/p4.png" alt="" class="four">
-						<img src="images/p5.png" alt="" class="five">
-						<img src="images/p6.png" alt="" class="six">
+						<img src="images/p4.png" alt="" class="four wow slideInRight" data-wow-duration="1s" data-wow-delay=".4s">
+						<img src="images/p5.png" alt="" class="five wow slideInRight" data-wow-duration="1s" data-wow-delay=".8s">
+						<img src="images/p6.png" alt="" class="six wow slideInRight" data-wow-duration="1s" data-wow-delay="1.2s">
 					</div>
 				</div>
 			</div>
@@ -175,7 +179,7 @@
 	<!-- Showcase section ends -->
 
 	<!-- Stay with us section starts -->
-	<section class="stay">
+	<section class="stay" id="contact">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -198,14 +202,14 @@
 					<form>
 						<div class="main-form">
 							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Full Name">
+								<input type="text" class="form-control wow slideInRight" data-wow-duration="1s" data-wow-delay=".2s" placeholder="Full Name">
 							</div>
 							<div class="form-group">
-								<input type="email" class="form-control" placeholder="Email Address">
+								<input type="email" class="form-control wow slideInLeft" data-wow-duration="1s" data-wow-delay=".3s" placeholder="Email Address">
 							</div>
 							<div class="msg">
 								<div class="form-group">
-									<textarea type="email" class="form-control" placeholder="Message" rows="6"></textarea> 
+									<textarea type="email" class="form-control wow slideInRight" data-wow-duration="1s" data-wow-delay=".4s" placeholder="Message" rows="6"></textarea> 
 								</div>
 							</div>
 							<div class="form-group">
@@ -230,7 +234,7 @@
 </body>
 
 <footer>
-	<section class="foot">
+	<section class="foot" id="bottom">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -242,16 +246,16 @@
 					<div class="links">
 						<ul>
 							<li>
-								<a href="#" class="btn btn-primary"><i class="fa fa-facebook"></i></a>
+								<a href="https://www.facebook.com/" class="btn btn-primary wow slideInRight" data-wow-duration="1s" data-wow-delay=".2s" target="_blank"><i class="fa fa-facebook" ></i></a>
 							</li>
 							<li>
-								<a href="#" class="btn btn-primary"><i class="fa fa-twitter"></i></a>
+								<a href="https://twitter.com/" class="btn btn-primary wow slideInRight" data-wow-duration="1s" data-wow-delay=".4s" target="_blank" ><i class="fa fa-twitter"></i></a>
 							</li>
 							<li>
-								<a href="#" class="btn btn-primary"><i class="fa fa-google-plus"></i></a>
+								<a href="https://myaccount.google.com/" class="btn btn-primary wow slideInRight" data-wow-duration="1s" data-wow-delay=".6s" target="_blank"><i class="fa fa-google-plus"></i></a>
 							</li>
 							<li>
-								<a href="#" class="btn btn-primary"><i class="fa fa-linkedin"></i></a>
+								<a href="https://bd.linkedin.com/" class="btn btn-primary wow slideInRight" data-wow-duration="1s" data-wow-delay=".8s" target="_blank"><i class="fa fa-linkedin"></i></a>
 							</li>
 						</ul>
 					</div>
@@ -265,4 +269,30 @@
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/stickUp.min.js"></script>
+<script src="js/wow.min.js"></script>
+
+<script type="text/javascript">
+              //initiating jQuery
+              jQuery(function($) {
+              	$(document).ready( function() {
+                  //enabling stickUp on the '.navbar-wrapper' class
+                  $('.navbar-wrapper').stickUp();
+              });
+              });
+
+        </script>
+          
+        <script>
+        	 wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+          	new WOW().init();
+        </script>
 </html>
